@@ -283,8 +283,8 @@ const Hero = ({ openModal }: { openModal: (type: 'join' | 'tour') => void }) => 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1B1D23] via-[#1B1D23]/60 to-transparent z-10" />
-        <div className="absolute inset-0 bg-black/20 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1B1D23] via-[#1B1D23]/10 to-transparent z-10" />
+        {/* Removed black overlay for maximum brightness */}
         <video
           autoPlay
           muted
